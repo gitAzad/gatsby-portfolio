@@ -5,6 +5,7 @@ import { Container, Button } from 'components/common';
 import dev from 'assets/illustrations/skills.svg';
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 import SkillList from './skill-list';
+import Resume from '../../../../resume.pdf';
 
 export const Skills = () => {
   const { theme } = useContext(ThemeContext);
@@ -27,6 +28,17 @@ export const Skills = () => {
           <Button as={AnchorLink} href="#contact">
             Hire me
           </Button>
+          <a
+            href={Resume}
+            target="_blank"
+            style={{
+              background: 'transparent',
+              color: '#0074D9',
+              padding: '1rem',
+            }}
+          >
+            See My Resume
+          </a>
         </Details>
       </SkillsWrapper>
     </Wrapper>
