@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Instagram",
+    "link": "https://instagram.com/md.Azad1999",
+    "icon": "https://img.icons8.com/cute-clipart/2x/instagram-new.png"
+  },
+  {
+    "id": 1,
+    "name": "Github",
+    "link": "https://github.com/gitAzad",
+    "icon": "/icons/github.svg"
+  },
+  {
+    "id": 2,
+    "name": "Linked",
+    "link": "https://www.linkedin.com/in/mdAzad1999/",
+    "icon": "https://img.icons8.com/cute-clipart/2x/linkedin.png"
+  },
+  {
+    "id": 3,
+    "name": "Twitter",
+    "link": "https://twitter.com/mdAzad1999",
+    "icon": "/icons/twitter.svg"
+  }
+]
